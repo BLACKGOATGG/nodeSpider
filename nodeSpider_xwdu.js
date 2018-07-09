@@ -55,9 +55,9 @@ app.get('/', function (req, response, next) {
             let urls = []
             total = $('#list dd').length
             console.log(`共${$('#list dd').length}章`)
-            $('#list dd').each(function (i, v) {
-                if (i < chapters) {
-                    urls.push('http://www.zwdu.com' + $(v).find('a').attr('href'))
+            $('#list dd').each(function (index, element) {
+                if (index < chapters) {
+                    urls.push('http://www.zwdu.com' + $(element).find('a').attr('href'))
                 }
             })
 
