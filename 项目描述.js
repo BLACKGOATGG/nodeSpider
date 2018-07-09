@@ -7,5 +7,6 @@ var dependencies = {
   "fs": "^0.0.1-security", //文件系统
   "iconv-lite": "^0.4.23", //转换字符编码
   "request": "^2.87.0", //请求
-  "superagent": "^3.8.3" //超级代理
+  "superagent": "^3.8.3", //超级代理
+  "superagent-charset": "^1.2.0" //superagent的转码
 }
