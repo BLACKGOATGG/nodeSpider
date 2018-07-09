@@ -22,7 +22,7 @@ let getData =()=> {
         $("body").find(".list-llb-s").children(".list-llb-list").each(function(index,element){
             let time=$(element).find(".list-date-a").text();
             let title=$(element).find(".list-llb-text").text();
-            //将所需要的信息保存进制备的容器中
+            //将所需要的信息保存进准备的容器中
             newData.push({"time":time,"title":title})
         })
         console.log(newData);   //打印数据
