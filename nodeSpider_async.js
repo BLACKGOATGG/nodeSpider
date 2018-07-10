@@ -30,7 +30,7 @@ superagent.get(cnodeUrl).end((err, res) => {
         });
 
     }
-    async.mapLimit(topicUrls, 11, (topicUrl, callback) => {
+    async.mapLimit(topicUrls, 5, (topicUrl, callback) => {
         fetch(topicUrl, callback);
         console.timeEnd("  耗时");
     }, (err, result) => {
