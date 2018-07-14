@@ -15,7 +15,7 @@ superagent
         let concurrencyNum = 0; //当前并发数
         let concurrencyNo = 0; //自定义线程名
         let fileNo = 1; //自定义img序号
-        let fileName = undefined;
+        let fileName = undefined;   //保存的图片名，第一次$获取不到
         let imgUrls = []; //用于存放所有图片url的容器
         for (let i in res.body.infos) {
             //将需要操作的数据转换成json格式
