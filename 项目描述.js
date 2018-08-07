@@ -19,4 +19,5 @@ const dependencies = {
   nodeSpider_html 爬取html内容基础模板
   nodeSpider_api 爬取api内容基础模板
   nodeSpider_jftrm 爬取api内容,async.mapLimit并发,.pipe(fs.createWriteStream())保存图片
+  node_spider 这有这个时候我才会觉得代码不负与我
 */
